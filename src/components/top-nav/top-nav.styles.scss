@@ -1,0 +1,38 @@
+.top-nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav-options{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.top-nav-options p {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.top-nav-opt{
+    font-size: 25px;
+}
+
+.notification-badge {
+    font-size: 10px;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: #207398;
+    position: absolute;
+    margin: -5px 0 0 -12px;
+}
+
+.img-nav-top{
+    width: 40px;
+    cursor: pointer;
+}

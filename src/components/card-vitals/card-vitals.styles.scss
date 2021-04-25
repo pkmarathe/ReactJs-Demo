@@ -1,0 +1,37 @@
+.card-vitals {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    flex: 1;
+    width: 300px;
+    box-shadow: 3px 3px 8px 2px rgb(179, 179, 179);
+}
+
+.vitals-heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+
+.vitals-heading p {
+    cursor: pointer;
+}
+
+
+.blood-pulse {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.blood p {
+    font-size: 50px;
+}
+
+.pulse p {
+    font-size: 50px;
+    
+}
